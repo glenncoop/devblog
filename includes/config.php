@@ -5,10 +5,10 @@ session_start();
 //database creds
 define('DBHOST','localhost');
 define('DBUSER', 'root');
-define('DBPASS', 'youracunt12');
+define('DBPASS', 'hellolol');
 define('DBNAME', 'blog');
 
-$db = new PDO("mysql:host=".DBHOST";port=8889;dbname=".DBNAME, DBUSER, DBPASS);
+$db = new PDO("mysql:host=".DBHOST.";dbname=".DBNAME, DBUSER, DBPASS);
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 //timezone

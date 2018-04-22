@@ -1,0 +1,1 @@
+CREATE TABLE `blog`.`blog_posts` ( `postID` INT NOT NULL AUTO_INCREMENT , `postTitle` VARCHAR(255) NOT NULL , `postCont` TEXT NOT NULL , `postDate` DATE NOT NULL , `postComment` TEXT NOT NULL , PRIMARY KEY (`postID`)) ENGINE = InnoDB;
